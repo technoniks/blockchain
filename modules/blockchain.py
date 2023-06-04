@@ -1,5 +1,5 @@
 import time
-from block import Block
+from modules.block import Block
 
 
 class Blockchain:
