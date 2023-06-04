@@ -1,6 +1,6 @@
 import time
-from blockchain import Blockchain
-from block import Block
+from modules.blockchain import Blockchain
+from modules.block import Block
 
 blockchain = Blockchain()
 
