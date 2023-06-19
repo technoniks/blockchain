@@ -1,10 +1,12 @@
-import hashlib
+import hashlib, json
+from json import JSONEncoder
 
 class Block:
-    def __init__(self, index, timestamp, data, previous_hash = ''):
+    def __init__(self, index, timestamp, data, proof, previous_hash = ''):
         self.index = index
         self.timestamp = timestamp
         self.data = data
+        self.proof = proof
         self.previous_hash = previous_hash
         self.hash = self.calculate_hash()
 
