@@ -1,0 +1,8 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.fontSize": 16,
+    // "editor.fontWeight": "600",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.wrapTabs": true
+}
